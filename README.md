@@ -1,0 +1,2 @@
+# copyPasteQuillEditor.
+Created with CodeSandbox
