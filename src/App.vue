@@ -10,9 +10,9 @@ export default {
   components: {},
   data() {
     return {
-      texto: "hola",
+      texto: "h",
       editorOption: {
-        placeholder: "Inserte el texto aquí",
+        placeholder: "Inserte el texto aquí..",
         modules: {
           //imageDrop: true,
           imagePaste: true,
@@ -32,7 +32,15 @@ export default {
             ["clean"],
             ["link", "image", "video"],
             ["template-partediario"]
-          ]
+          ],
+          imageResize: {
+            displayStyles: {
+              backgroundColor: "black",
+              border: "none",
+              color: "white"
+            },
+            modules: ["Resize", "DisplaySize", "Toolbar"]
+          }
         }
       }
     };
