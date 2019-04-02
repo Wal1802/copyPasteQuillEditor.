@@ -12,13 +12,13 @@ import { ImageDrop } from "quill-image-drop-module";
 
 import { ImagePaste } from "./imagePasteClass";
 
-//import ImageResize from "quill-image-resize-module";
-
-import ImageResize from "./ResizeImage/ImageResize";
+// import ImageResize from "quill-image-resize-module";
+// alert(ImageResize)
+import Im from "./ResizeImage/ImageResize";
 
 Quill.register("modules/imageDrop", ImageDrop);
 Quill.register("modules/imagePaste", ImagePaste);
-Quill.register("modules/imageResize", ImageResize);
+Quill.register("modules/imageResize", Im);
 
 Vue.use(VueQuillEditor);
 Vue.component("quill-editor", VueQuillEditor.quillEditor);

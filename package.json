@@ -1,5 +1,5 @@
 {
-  "name": "test-project",
+  "name": "quill-editor-with-imagepaste-and-imagedrop",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "main": "src/main.js",
@@ -17,7 +17,6 @@
     "quill-image-drop-module": "1.0.3",
     "quill-image-resize-module": "3.0.0",
     "quill-yang-image-paste": "1.0.3",
-    "v-hotkey": "^0.3.0",
     "vue": "^2.5.2",
     "vue-quill-editor": "3.0.6"
   },
@@ -76,5 +75,10 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": []
 }
